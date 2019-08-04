@@ -1,6 +1,6 @@
 services:
    tomcat-build:
-     image: images:2
+     image: docker-image
      container_name: tom-container1
      ports:
        - "8080:8080"
