@@ -1,7 +1,7 @@
 version: '2.2'
 services:
    tomcat-build:
-     image: docker-image
+     image: chandurockzdockerid/docker-image
      container_name: tom-container1
      ports:
        - "8080:8080"
